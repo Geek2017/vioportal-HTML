@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CMV</title>
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <link rel='stylesheet' id='elementor-frontend-css' href='assets/css/frontend.min206d.css' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-113-css' href='assets/css/post-113d088.css' type='text/css' media='all' />
@@ -35,7 +39,7 @@
 
 </head>
 
-<body id="custom-background-css" class="home page-template page-template-elementor_header_footer page page-id-42 custom-background comments-closed elementor-default elementor-template-full-width elementor-page elementor-page-42">
+<body class="custom-background ">
     <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
         <div data-elementor-type="wp-post" data-elementor-id="113" class="elementor elementor-113" data-elementor-settings="[]">
             <div class="elementor-inner">
@@ -91,22 +95,12 @@
                                         <div class="elementor-widget-wrap">
                                             <div class="elementor-element elementor-element-296177c elementor-widget elementor-widget-elementskit-header-search" data-id="296177c" data-element_type="widget" data-widget_type="elementskit-header-search.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="ekit-wid-con">
-                                                        <a href="#ekit_modal-popup-296177c" class="ekit_navsearch-button ekit-modal-popup">
-                                                            <i aria-hidden="true" class="icon icon-search"></i> </a>
-                                                        <!-- language switcher strart -->
-                                                        <!-- xs modal -->
-                                                        <div class="zoom-anim-dialog mfp-hide ekit_modal-searchPanel" id="ekit_modal-popup-296177c">
-                                                            <div class="ekit-search-panel">
-                                                                <!-- Polylang search - thanks to Alain Melsens -->
-                                                                <form role="search" method="get" class="ekit-search-group" action="http://localhost/wordpress/">
-                                                                    <input type="search" class="ekit_search-field" placeholder="Search..." value="" name="s" />
-                                                                    <button type="submit" class="ekit_search-button"><i class="icon icon-search"></i></button>
-                                                                </form>
-                                                            </div>
+                                                    <div class="form-group has-feedback">
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control" placeholder="Search..." style="border: 1px solid black;
+                                                            "><span class="input-group-addon" style="background-color:black; border: 1px solid black"><span class="glyphicon glyphicon-search"></span></span>
+
                                                         </div>
-                                                        <!-- End xs modal -->
-                                                        <!-- end language switcher strart -->
                                                     </div>
                                                 </div>
                                             </div>
